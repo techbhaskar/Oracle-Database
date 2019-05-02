@@ -26,3 +26,16 @@ create table test_employee (
 /** 
 * Note: Foreign keys must reference primary keys, so to create a "child" table the "parent" table must have a primary key for the foreign key to reference.
 */
+
+/**
+*Crete table with primary key from multiple columns
+*/
+
+CREATE TABLE test_customers(
+   id   INT              NOT NULL,
+   name VARCHAR (20)     NOT NULL,
+   age  INT              NOT NULL,
+   address  varchar (250) ,
+   salary   INT,        
+   constraint pk_id_name primary key (id,name)
+);
