@@ -1,11 +1,11 @@
-Example 1:
+/*Example 1: */
 
 UPDATE table
 SET column1 = expression1
     ...
 [WHERE conditions];
 
-Example 2:
+/*Example 2: */
 
 UPDATE table1
 SET column1 = (SELECT expression1
@@ -13,7 +13,7 @@ SET column1 = (SELECT expression1
                WHERE conditions)
 [WHERE conditions];
 
-Example 3:
+/*Example 3: */
 
 UPDATE table1, table2, ...
 SET column1 = expression1,
