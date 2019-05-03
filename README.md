@@ -5,5 +5,7 @@ When we start a database in oracle this contains many objects which includes tab
 Tables are the basic units of the databse, which is used to store data.
 # [Insert](https://github.com/techbhaskar/Oracle-Database/blob/master/Insert.sql)
 INSERT statement is used to insert a single record or multiple records into a table.
+# [Update](https://github.com/techbhaskar/Oracle-Database/blob/master/Update.sql)
+UPDATE statement is used to update the data inside the table
 # References
 # https://docs.oracle.com/cd/B28359_01/appdev.111/b28843.pdf
