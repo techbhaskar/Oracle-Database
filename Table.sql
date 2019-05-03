@@ -39,3 +39,9 @@ CREATE TABLE test_customers(
    salary   INT,        
    constraint pk_id_name primary key (id,name)
 );
+
+CREATE TABLE demo_categories
+( category_id int NOT NULL,
+  category_name varchar(50) NOT NULL,
+  CONSTRAINT categories_pk PRIMARY KEY (category_id)
+);
